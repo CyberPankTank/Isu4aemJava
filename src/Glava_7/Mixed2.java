@@ -1,0 +1,36 @@
+package Glava_7;
+
+class A {
+    int ivar = 7;
+    void m1() {
+        System.out.print("метод m1 класса А, ");
+    }
+    void m2() {
+        System.out.print("метод m2 класса А, ");
+    }
+    void m3() {
+        System.out.print("метод m3 класса А, ");
+    }
+}
+class B extends A {
+    void m1(){
+        System.out.print("метод m1 класса B, ");
+    }
+}
+class C extends B {
+    void m3(){
+        System.out.print("метод m3 класса C, " + (ivar + 6));
+    }
+}
+public class Mixed2 {
+    public static void main(String[] args) {
+        A a = new A();
+        B b = new B();
+        C c = new C();
+        A a2 = new C();
+
+        a2.m1();
+        a2.m2();
+        a2.m3();
+    }
+}
