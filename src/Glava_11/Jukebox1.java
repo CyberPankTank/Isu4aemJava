@@ -11,7 +11,7 @@ public class Jukebox1 {
         songList.sort((one, two) -> one.getTitle().compareTo(two.getTitle()));
         System.out.println(songList);
 
-        Set<SongV3> songSet = new HashSet<>(songList);
+        Set<SongV3> songSet = new TreeSet<>(songList);
         System.out.println(songSet);
     }
 }
