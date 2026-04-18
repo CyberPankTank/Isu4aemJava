@@ -3,7 +3,7 @@ import javax.sound.midi.*;
 public class MusicTest1 {
     public void play() {
         try {
-            Sequence sequencer = MidiSystem.getSequencer();
+            Sequence sequencer = MidiSystem.getSequencer().getSequence();
             System.out.println("Суквенсор успешно установлен");
         } catch (MidiUnavailableException e) {
             System.out.println("Облом");
