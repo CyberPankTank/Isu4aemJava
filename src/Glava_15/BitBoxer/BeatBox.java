@@ -6,6 +6,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 import static javax.sound.midi.ShortMessage.*;
+//import static java.nio.charset.StandardCharsets.*;
 
 public class BeatBox {
     private ArrayList<JCheckBox> checkboxList;
