@@ -1,6 +1,8 @@
 package Glava_18;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
@@ -30,7 +32,8 @@ final class Chat {
         timestamp = LocalDateTime.now();
     }
     public String toString() {
-        String time = timestamp.format(ofLocalizeTime(MEDIUM));
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+        String time = timestamp.format(formatter);
         return time + " " + message;
     }
 }

@@ -52,7 +52,7 @@ public class SimpleChatClient {
     }
     private void setUpNetworking() {
         try {
-            InetSocketAddress serverAddress = new InetSocketAddress("127.0.0.1", 5000);
+            InetSocketAddress serverAddress = new InetSocketAddress("188.242.70.59", 5000);
             SocketChannel socketChannel = SocketChannel.open(serverAddress);
 
             reader = new BufferedReader(Channels.newReader(socketChannel, "Windows-1251"));

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/Glava_15/BitBoxer/BeatBox.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_17/ExecutorrTestDrive.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_17/PingingClient.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_17/PredictableSleep.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_17/PridictableLatch.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_17/RunThreads.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_17/ThreadTestDrive.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_17/three/SimpleChatClient.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/Glava_18/ConcurrentReaders.java" charset="windows-1251" />
+  </component>
+</project>
